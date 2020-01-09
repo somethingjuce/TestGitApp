@@ -10,6 +10,12 @@ namespace GitApp
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+
+            Console.WriteLine("Hello, world!");
+
+            Console.ReadKey();
+
         }
     }
 }
